@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: 'ParryHotter';
-    src: url();
+    src: url(../Fonts/ParryHotter.ttf) format('truetype');
 }
 body{
     background-image: url(../Images/HarryPotterSunset.jpg);
