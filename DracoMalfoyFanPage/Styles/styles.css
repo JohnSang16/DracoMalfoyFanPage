@@ -263,9 +263,9 @@ margin: 0 auto; /* Centers if there's extra space */
     transform: translate(-50%, -50%);
     border: 6px solid #f3f3f3;
     border-top: 6px solid #4a90e2;
-    border-radius: 50%;         /* <-- this rounds it into a circle */
-    width: 40px;                /* <-- width and height must match */
-    height: 40px;
+    border-radius: 55%;         /* <-- this rounds it into a circle */
+    width: 50px;                /* <-- width and height must match */
+    height: 50px;
     animation: spin 1s linear infinite;
     z-index: 10;
     display: none;
