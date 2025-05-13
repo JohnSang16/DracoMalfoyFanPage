@@ -241,3 +241,62 @@ margin: 0 auto; /* Centers if there's extra space */
 
 /* bio */
 
+
+#video-container {
+    border: 3px solid #888;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 640px;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  #video-embed-wrapper {
+    position: relative;
+  }
+  
+  .spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 6px solid #f3f3f3;
+    border-top: 6px solid #4a90e2;
+    border-radius: 50%;         /* <-- this rounds it into a circle */
+    width: 40px;                /* <-- width and height must match */
+    height: 40px;
+    animation: spin 1s linear infinite;
+    z-index: 10;
+    display: none;
+  }
+  
+  
+  @keyframes spin {
+    0% { transform: translate(-50%, -50%) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 1em;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #4a90e2;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #357ab8;
+  }
+  
+  
