@@ -1,3 +1,4 @@
+
 function showSidebar() {
     const sidebar = document.querySelector('.sidebar'); // ✅ Correct variable name
     sidebar.style.display = 'flex';
@@ -67,5 +68,36 @@ const videos = [
   }
   
   window.onload = loadNext;
-  
+
+// theme switch
+document.addEventListener("DOMContentLoaded", () => {
+  let theme = localStorage.getItem("theme");
+  const themeSwitches = document.querySelectorAll(".theme-switch");
+
+  console.log("Found theme switch elements:", themeSwitches.length); // should be 2
+
+  const enableLightmode = () => {
+    document.body.classList.add("lightmode");
+    localStorage.setItem("theme", "light");
+  };
+
+  const disableLightmode = () => {
+    document.body.classList.remove("lightmode");
+    localStorage.setItem("theme", "dark");
+  };
+
+  if (theme === "light") {
+    enableLightmode();
+  }
+
+  themeSwitches.forEach((el) => {
+    el.addEventListener("click", (e) => {
+      e.preventDefault();
+      theme = localStorage.getItem("theme");
+      theme !== "light" ? enableLightmode() : disableLightmode();
+    });
+  });
+});
+
+
   
