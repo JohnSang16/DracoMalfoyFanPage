@@ -1,10 +1,6 @@
 *{
     margin:0;
     padding: 0;
-<<<<<<< HEAD
-}
-
-=======
     box-sizing: border-box;
 }
 
@@ -36,7 +32,6 @@
     --img-caption-color: black;
 
 }
->>>>>>> b461e2f (updated last time)
 @font-face {
     font-family: 'ParryHotter';
     src: url(../Fonts/ParryHotter.ttf) format('truetype');
@@ -59,32 +54,19 @@ body, html{
     margin: 0;
     padding: 0;
     height:100%;
-<<<<<<< HEAD
-    font-size: 62.5%;
-=======
     font-size: 72.5%;
->>>>>>> b461e2f (updated last time)
 
 }
 
 /* nav/header  */
 
 nav{
-<<<<<<< HEAD
-    z-index: 4;;
-   position: sticky; 
-   top: 0;
-   background-color: rgb(42, 42, 53);
-   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
-   border-bottom:2px solid rgb(101, 101, 121) ;
-=======
    z-index: 4;;
    position: sticky; 
    top: 0;
    background-color: var(--base-color);
    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
    border-bottom:2px solid var(--border-bottom)  ;
->>>>>>> b461e2f (updated last time)
 }
 
 nav ul{
@@ -105,11 +87,7 @@ nav a{
     text-decoration: none;
     display: flex;
     align-items: center;
-<<<<<<< HEAD
-    color:white;
-=======
     color:var(--text-color);
->>>>>>> b461e2f (updated last time)
     font-size:2.1rem;
 }
 
@@ -131,11 +109,7 @@ nav li:first-child{
     height: 100vh;
     width: 250px;
     z-index: 999;
-<<<<<<< HEAD
-    background-color: rgb(42, 42, 53, .2);
-=======
     background-color: var(--base-variant);
->>>>>>> b461e2f (updated last time)
     box-shadow: -10px 0 10px rgba(0,0,0,0.1);
     display: none;
     flex-direction: column;
@@ -179,28 +153,17 @@ nav li:first-child{
   align-items: center;
   justify-content: center;
   overflow-x:hidden;
-<<<<<<< HEAD
-}
-
-.mainBody{
-    background-color:  rgba(42, 42, 53, 0.8);
-=======
 
 }
 
 .mainBody{
     background-color: var(--base-variant) ;
->>>>>>> b461e2f (updated last time)
     border-radius: 4px;
     z-index: 2;
     min-height: 100vh;
     padding: 1rem 0 5rem 0 ;
     margin: 8rem 2rem 3rem 2rem;
-<<<<<<< HEAD
-    color: white;
-=======
     color: var(--text-color);
->>>>>>> b461e2f (updated last time)
     height: fit-content;
     width: auto;
     overflow-x:hidden;
@@ -221,11 +184,7 @@ nav li:first-child{
 }
 
 div{
-<<<<<<< HEAD
-    font-size: 1.8rem;
-=======
     font-size: 2rem;
->>>>>>> b461e2f (updated last time)
     padding: 2rem 3rem 2rem 3rem;
     flex:1;
     
@@ -240,10 +199,7 @@ div{
     border: 3px solid #000000;
     padding-bottom: 0px;
     box-sizing: border-box;
-<<<<<<< HEAD
-=======
     padding: 0;
->>>>>>> b461e2f (updated last time)
 
 }
 #MalfoyPortrait1{ 
@@ -258,16 +214,10 @@ div{
 /* table styling */ 
 table{
     margin-top: -3px; 
-<<<<<<< HEAD
-    border-top:none;
-    width: 100%;
-    font-size: 2rem;
-=======
     margin: 0;
     border-top:none;
     width: 100%;
     font-size: 1.5rem;
->>>>>>> b461e2f (updated last time)
     table-layout: auto;
     border-collapse:collapse;
 }
@@ -281,11 +231,7 @@ th {
 padding: 12px 15px;
 font-size: 1.2em;
 text-align: left;
-<<<<<<< HEAD
-border: 2px solid #34495e; /* Slightly darker border */
-=======
 border: 2px solid var(--table-border); /* Slightly darker border */
->>>>>>> b461e2f (updated last time)
 }
 
 td {
@@ -296,11 +242,7 @@ vertical-align: top; /* Align content to top */
 }
 
 tr:not(:has(th)) {
-<<<<<<< HEAD
-border-bottom: 1px solid #e0e0e0; /* Light gray line between rows */
-=======
 border-bottom: 1px solid var(--row-color); /* Light gray line between rows */
->>>>>>> b461e2f (updated last time)
 }
 
 table tr:first-child th{
@@ -318,13 +260,6 @@ tr:last-child {
 
 
 td img {
-<<<<<<< HEAD
-max-width: 100%; /* Ensures image never exceeds cell width */
-height: auto; /* Maintains aspect ratio */
-display: block; /* Removes inline spacing */
-margin: 0 auto; /* Centers if there's extra space */
-}
-=======
 max-width: 50%; /* Ensures image never exceeds cell width */
 height: auto; /* Maintains aspect ratio */
 display: block; /* Removes inline spacing */
@@ -403,4 +338,3 @@ margin: 0 auto; /* Centers if there's extra space */
   }
   
   
->>>>>>> b461e2f (updated last time)
