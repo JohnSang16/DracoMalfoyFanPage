@@ -1,4 +1,4 @@
-<img width="176" height="176" id="Malfoy Portrait" src=Images/DracoMalfoyPortrait2.jpg alt="DracoMalfoyPortrait><h2>🐍 Draco Malfoy FanPage</h2>
+<img width="176" height="176" id="MalfoyPortrait" src=Images/DracoMalfoyPortrait2.jpg alt="DracoMalfoyPortrait><h2>🐍 Draco Malfoy FanPage</h2>
 A dedicated fan page for Draco Malfoy made for my little cousin, exploring the complexity of his character within the Harry Potter universe. This project features a dark, immersive theme and a responsive layout to showcase biographical information and character analysis.
 
   <a href = https://johnsang16.github.io/DracoMalfoyFanPage/><u>     View Live Demo</u></a>
