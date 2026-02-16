@@ -1,4 +1,4 @@
-<img src="Images/DracoMalfoyPortrait2.jpg" alt="Draco Malfoy Portrait" width="176" height="176">
+<img src="Images/DracoMalfoyPortrait2.jpg" alt="Draco Malfoy Portrait" width="100%" height="100%">
 
 <h2>🐍 Draco Malfoy FanPage</h2>
 A dedicated fan page for Draco Malfoy made for my little cousin, exploring the complexity of his character within the Harry Potter universe. This project features a dark, immersive theme and a responsive layout to showcase biographical information and character analysis.
