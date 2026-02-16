@@ -337,4 +337,93 @@ margin: 0 auto; /* Centers if there's extra space */
     background-color: #357ab8;
   }
   
-  
+    
+/* phone view */
+
+@media (max-width:600px ){
+
+    .mainContainer{
+        margin: 0;
+        padding: 0;
+    }
+    .mainBody{
+        
+        width:100%;
+    }
+
+    .img-container{
+        order: -1;
+        margin: 1em, 1em, 1em, 1em;
+        padding: 1em, 1em, 1em, 1em;
+        
+    }
+
+    .first-container{
+        padding: 0;
+    }
+    .second-container{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+
+    }
+
+    div{
+        font-size: 1.4rem;
+        
+    }
+
+    .third-container{
+        margin:0;
+        padding: 0;
+    }
+
+    img{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .responsive-img{
+        display: block;
+        width: 100%;
+        float: none;
+        clear: both;
+        align-items: center;
+
+    }
+    .quote{
+        margin: 0;
+        padding: 0;
+    }
+    .bio p{
+        text-align: center;
+        clear: both;
+       
+    }
+
+    #video-container{
+        width: 100%;
+        max-width: 800px; /* or any max size you prefer */
+        margin: 0 auto;
+        padding: 1rem;
+    }
+
+    #video-embed-wrapper{
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    
+        #video-embed {
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+}
+    
+}
